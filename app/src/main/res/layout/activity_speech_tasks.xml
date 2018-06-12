@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tomas.speechprocessingapp.MainTasks.SpeechTasks">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Read Text"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_speechrec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_RTextPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/main_saveReadText"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_A"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/main_Arec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_APlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+            android:id="@+id/main_saveAvowel"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pataka"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_Pataka"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Patakarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_PatakaPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+            android:id="@+id/main_savePataka"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pakata"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_Pakata"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Pakatarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_PakataPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+            android:id="@+id/main_savePakata"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Petaka"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_Petaka"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Petakarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_PetakaPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/main_savePetaka"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pa"
+            android:textSize="20dp" />
+        <Chronometer
+            android:id="@+id/chrono_Pa"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Parec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_PaPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+        android:id="@+id/main_savePa"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ta"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_Ta"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Tarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_TaPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+            android:id="@+id/main_saveTa"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ka"
+            android:textSize="20dp"/>
+        <Chronometer
+            android:id="@+id/chrono_Ka"
+            android:textSize="17dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/main_Karec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+        <Button
+            android:id="@+id/main_KaPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+        <Button
+            android:id="@+id/main_saveKa"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barra"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

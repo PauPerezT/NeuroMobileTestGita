@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "321728727425",
+    "firebase_url": "https://neuromobiletest-6f683.firebaseio.com",
+    "project_id": "neuromobiletest-6f683",
+    "storage_bucket": "neuromobiletest-6f683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321728727425:android:c0bc392b43684a90",
+        "android_client_info": {
+          "package_name": "com.example.tomas.speechprocessingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321728727425-e0vmp88fs1si7vsv84jn7n49j52dv5i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomas.speechprocessingapp",
+            "certificate_hash": "16b3308af30876faa765a6fa2e229dde0887ef9a"
+          }
+        },
+        {
+          "client_id": "321728727425-pnfsjedjsp1ijk3qgs19abbds6ng0af3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeTqCz3X0IpazI0tRGjYCcNFXuGwvSaB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321728727425-pnfsjedjsp1ijk3qgs19abbds6ng0af3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

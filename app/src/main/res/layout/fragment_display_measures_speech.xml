@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutspeech"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="70dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context="com.example.tomas.speechprocessingapp.MainTasks.SpeechTasks">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/barra"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_vertical">
+            <TextView
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Prosody"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/speech_btProsody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Recordings" />
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/barra"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_vertical">
+            <TextView
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Phonation"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/speech_btPhonation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Recordings" />
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/barra"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_vertical">
+            <TextView
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Articulation"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/speech_btArt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Recordings" />
+
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/barra"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Restart"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/speech_btRestart"
+            />
+
+
+
+
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginBottom="@dimen/margin_small"
+             android:layout_marginTop="15dp"
+             android:gravity="center_horizontal">
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Upload Data"
+                 android:id="@+id/main_btSend"
+                 />
+         </LinearLayout>-->
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

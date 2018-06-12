@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/fingertap_task"
+        android:textSize="23dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Start"
+        android:id="@+id/fingertap_start"/>
+    <Button
+        android:id="@+id/fingertap_saveTxt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fingertap_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="70dp" />
+
+    <Button
+        android:layout_width="@dimen/tambutton"
+        android:layout_height="@dimen/tambutton"
+        android:background="@drawable/tapme_button"
+        android:text="Tap me!!"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/fingertap_FinTap"/>
+
+</LinearLayout>

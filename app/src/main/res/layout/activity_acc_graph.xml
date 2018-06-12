@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/accgraph_id"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/accgraph_task"
+            android:textSize="23dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Start"
+            android:id="@+id/accgraph_start"/>
+        <Button
+            android:id="@+id/main_saveTxt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:drawableBottom="@drawable/ic_cloud_upload_black_24dp"
+
+            />
+    </LinearLayout>
+
+    <Chronometer
+        android:id="@+id/accgraph_chrono"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/accgraph_graph"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

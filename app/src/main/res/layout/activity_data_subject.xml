@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.tomas.speechprocessingapp.DataSubject">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"></LinearLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etName"
+        android:hint="Complete name"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etAge"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etDS_ID"
+        android:hint="ID"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etDHand"
+        android:textSize="18dp"
+        android:text="Dominant Hand:"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:text="Right"
+            android:buttonTint="@color/colorPrimary"/>
+
+
+        <RadioButton
+            android:id="@+id/rbLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Left"
+            android:buttonTint="@color/colorPrimary"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etGender"
+        android:textSize="18dp"
+        android:text="Gender:"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rbGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:text="Male"
+            android:buttonTint="@color/colorPrimary"/>
+
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Female"
+            android:buttonTint="@color/colorPrimary"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etSmoker"
+        android:textSize="18dp"
+        android:text="Smoker:"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbSmokerYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:checked="false"
+            android:text="Yes"
+            android:buttonTint="@color/colorPrimary"/>
+
+
+        <RadioButton
+            android:id="@+id/rbSmokerNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="No"
+            android:buttonTint="@color/colorPrimary"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="       Scholarity:    "
+
+            android:textSize="18dp"
+
+            android:textColor="@android:color/black"
+             />
+
+        <Spinner
+            android:id="@+id/spinnerScholDegree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+
+            android:textSize="18dp"
+            android:text="Please select subject type:"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/SubjectType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rbPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:checked="true"
+                android:text="Patient"
+                android:buttonTint="@color/colorPrimary"/>
+
+
+            <RadioButton
+                android:id="@+id/rbControl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Healthy Control"
+                android:buttonTint="@color/colorPrimary"/>
+        </RadioGroup>
+
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/etTimeDiagnosis"
+            android:hint="Diagnosis Time "
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/colorPrimary"
+            />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/tvMedicines"
+        android:textSize="18dp"
+        android:text="Medicines:"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etMedicines"
+        android:hint="Medicines name"
+
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etDose"
+        android:hint="Dose"
+
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/etMedicinesTime"
+        android:hint="Time"
+
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:drawableBottom="@drawable/ic_action_next2"
+        android:id="@+id/data-subject_btNext"
+       />
+
+
+</LinearLayout>
+</ScrollView>
